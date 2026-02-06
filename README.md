@@ -31,3 +31,4 @@ sudo systemctl restart motioneye.service
 sudo systemctl enable motioneye.service
 
 To access Motion eye in your browser go to http://[RASPBERRY_PI_IP]:8765
+The website will stream videos and also offers a way to customize the camera settings with things like resolution, framerate,rotation and more importantly MOTION DETECTION
