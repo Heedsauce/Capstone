@@ -19,6 +19,7 @@ sudo sed -i 's|ExecStart=/usr/local/bin/meyectl startserver -c /etc/motioneye/mo
 # OR
 sudo nano /etc/systemd/system/motioneye.service
 Find this line: ExecStart=/usr/local/bin/meyectl startserver -c /etc/motioneye/motioneye.conf
+
 Change it to this:
 ExecStart=/usr/bin/libcamerify /usr/local/bin/meyectl startserver -c /etc/motioneye/motioneye.conf
 
