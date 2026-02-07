@@ -11,7 +11,9 @@ sudo apt --no-install-recommends install python3-pip libcamera-v4l2 libcamera-to
 # Install MotionEye
 sudo python3 -m pip install --pre motioneye --break-system-packages
 
-# Initialize MotionEye
+The reason you have to do the --break-system-packages is because this is only supposed to run in Virtual Machines but because of the technology restraint we have using the Pi 3 we are using the whole Pi to run it 
+
+# Initialize MotionEyee usi
 sudo motioneye_init
 
 # Add libcamerify compatibility layer
