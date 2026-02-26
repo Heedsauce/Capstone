@@ -34,3 +34,11 @@ sudo systemctl enable motioneye.service
 
 To access Motion eye in your browser go to http://[RASPBERRY_PI_IP]:8765
 The website will stream videos and also offers a way to customize the camera settings with things like resolution, framerate,rotation and more importantly MOTION DETECTION
+
+# Motioneye Config
+after motioneye is installed there should be a very nice and simple dashboard for you to use and play around with 
+# or
+if you want to use my config file just download the Final-motioneye-config.tar.gz and import it from the GUI 
+My config has it running at 30fps and a resolution of 1280 x 1024 which is the maximum for the Pi Camera 3 
+
+
