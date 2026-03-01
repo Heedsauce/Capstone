@@ -1,7 +1,20 @@
 # Capstone
 this is a repository for my Capstone Project
 
+# Parts
+Raspberry Pi Camera Module 3
+https://www.amazon.com/Raspberry-Pi-Camera-Module/dp/B0BRY6MVXL
 
+Raspberry Pi 3 A+ (you can use a better version I chose this to keep the cost down) 
+https://www.amazon.com/Raspberry-Pi-3-Computer-Board/dp/B07KKBCXLY/ref=sr_1_1?sr=8-1
+
+SD Card Reader
+https://www.amazon.com/acer-Adapter-MicroSD-Compatible-iPhone16/dp/B0DQ71G4G4/ref=sr_1_2_sspa?sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY
+
+SD Cards
+https://www.amazon.com/Lexar-Micro-microSDHC-Memory-Adapter/dp/B09JNL9VSR/ref=sxin_28_pa_sp_search_thematic_sspa?cv_ct_cx=micro%2Bsd%2Bcard&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-7efdef4d-9875-47e1-927f-8c2c1c47ed49-spons&aref=6Ex20MlsvY&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM
+
+These should be the things that I need for capstone. If I need other parts Ill try and let you know. 
 # Update system
 sudo apt update -y && sudo apt upgrade -y
 
