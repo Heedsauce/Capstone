@@ -36,7 +36,7 @@ Enable SSH and remember the usernamename and hostname you gave it as it is impor
 # First Login
 After you put the SD card into the Raspbery Pi connect it to whatever powercord/source you have and WAIT until the GREEN light stops blinking.
 The Green light means it is reading from the card and starting to boot
-After the green light is solid then go to your command line and type in  ssh@USERNAME@HOSTNAME.local and you should see a screen asking for a fingerprint, say yes
+After the green light is solid then go to your command line and type in  ssh USERNAME@HOSTNAME.local and you should see a screen asking for a fingerprint, say yes
 After you say Yes you will be connected to the Pi!
 # Update system
 sudo apt update -y && sudo apt upgrade -y
@@ -80,5 +80,8 @@ My config has it running at 30fps and a resolution of 1280 x 1024 which is the m
 # Website 
 There is also a website on this page aswell to run locally on your machine.
 Download the Zip file and Open it in your favorite coding application 
-Open the terminal and type in python proxy.py
 
+Open the terminal and type in python proxy.py
+Then right click on the Index.html file and you have a working webiste that has:
+
+Live video, Motiondetection recording and saving, setting IN the website about how to connect your database that is holding the videos from motioneye and more!
