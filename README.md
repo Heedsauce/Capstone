@@ -10,15 +10,34 @@ Raspberry Pi 3 A+ (you can use a better version I chose this to keep the cost do
 
 https://www.amazon.com/Raspberry-Pi-3-Computer-Board/dp/B07KKBCXLY/ref=sr_1_1?sr=8-1
 
+Raspberry Pi 3 Case: Camera Mount, USB & Network Access 
+
+https://www.etsy.com/listing/1864540495/raspberry-pi-3-case-camera-mount-usb?ref=yr_purchases
+
+Raspberry Pi 3 / Zero Power Supply (Micro USB) This is the cord that I have for testing purposes your welcome to get another as long as it has 3.5v of power
+
+https://www.canakit.com/raspberry-pi-3-zero-power-supply-micro-usb.html
+
 SD Card Reader
 
 https://www.amazon.com/acer-Adapter-MicroSD-Compatible-iPhone16/dp/B0DQ71G4G4/ref=sr_1_2_sspa?sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY
 
-SD Cards
+SD Cards that have the Micro SD IN them
 
 https://www.amazon.com/Lexar-Micro-microSDHC-Memory-Adapter/dp/B09JNL9VSR/ref=sxin_28_pa_sp_search_thematic_sspa?cv_ct_cx=micro%2Bsd%2Bcard&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=1-1-7efdef4d-9875-47e1-927f-8c2c1c47ed49-spons&aref=6Ex20MlsvY&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM
 
-These should be the things that I need for capstone. If I need other parts Ill try and let you know. 
+These should be all the parts you need for the Camera
+# Starting the Pi
+BEFORE you plug in the raspberry Pi go to this website https://www.raspberrypi.com/software/ and download the Raspberry Pi imager. 
+This allows you to put the desiered OS onto the raspberry Pi
+Run the Program and Plug in the SD to USB card reader and follow the instructions on screen
+Enable SSH and remember the usernamename and hostname you gave it as it is important in the next step
+
+# First Login
+After you put the SD card into the Raspbery Pi connect it to whatever powercord/source you have and WAIT until the GREEN light stops blinking.
+The Green light means it is reading from the card and starting to boot
+After the green light is solid then go to your command line and type in  ssh@USERNAME@HOSTNAME.local and you should see a screen asking for a fingerprint, say yes
+After you say Yes you will be connected to the Pi!
 # Update system
 sudo apt update -y && sudo apt upgrade -y
 
@@ -58,4 +77,8 @@ after motioneye is installed there should be a very nice and simple dashboard fo
 if you want to use my config file just download the Final-motioneye-config.tar.gz and import it from the GUI 
 My config has it running at 30fps and a resolution of 1280 x 1024 which is the maximum for the Pi Camera 3 
 
+# Website 
+There is also a website on this page aswell to run locally on your machine.
+Download the Zip file and Open it in your favorite coding application 
+Open the terminal and type in python proxy.py
 
